@@ -1,26 +1,43 @@
 
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
 }
 
 h1, h2, p {
     text-align: center;
    }
+h1, h2 {
+    font-family: Impact, serif;
+   }
+.established {
+    font-style: italic;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
 
+h2 {
+    font-size: 30px;
+}
 .menu {
     width: 80%; /*80% the width of its parent element (body)*/
+    max-width: 500px;/*Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide.*/
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+
 }
 
 .item p {
     display: inline-block; /* get them on the same line */
-
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
 .flavor, .dessert { /*A element that has EITHER the flavor class OR the dessert class get the properties in the rule.*/
@@ -34,3 +51,44 @@ h1, h2, p {
     
 }
 
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size:  14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+a:active {
+    color: brown;
+}
+.address {
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;    /*To make the image behave like heading elements (which are block-level), create an img type selector and use the value block for the display property and use the applicable margin-left and margin-right values to center it horizontally.*/
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -25px; /*add a negative top margin to the img elements to pull them up from their current positions. Negative values are created using a - in front of the value*/
+}
