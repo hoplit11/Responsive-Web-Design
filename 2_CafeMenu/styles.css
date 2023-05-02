@@ -8,8 +8,29 @@ h1, h2, p {
    }
 
 .menu {
-    background-color: burlywood;
     width: 80%; /*80% the width of its parent element (body)*/
+    background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.item p {
+    display: inline-block; /* get them on the same line */
+
+}
+
+.flavor, .dessert { /*A element that has EITHER the flavor class OR the dessert class get the properties in the rule.*/
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+    
+}
+
