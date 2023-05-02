@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+
+}
+
+.marker {
+/*     background-color: red;*/    
+    height: 25px;
+    width: 200px;
+    margin: 10px auto; /* center marker on the page, set its margin property to auto*/
+}
