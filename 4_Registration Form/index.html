@@ -18,9 +18,9 @@
             <label for="new-password">Create a New Password: <input name="password" id="new-password" type="password" required pattern="[a-z0-5]{8,}"></label>
         </fieldset>
         <fieldset>
-            <label for="personal-account"><input type="radio" name="account-type" id="personal-account"> Personal Account</label>
-            <label for="business-account"><input type="radio" name="account-type" id="business-account"> Business Account</label>
-            <label for="terms-and-conditions" ><input type="checkbox" name="terms" id="terms-and-conditions" required> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+            <label for="personal-account"><input class="inline" type="radio" name="account-type" id="personal-account"> Personal Account</label>
+            <label for="business-account"><input class="inline" type="radio" name="account-type" id="business-account"> Business Account</label>
+            <label for="terms-and-conditions" ><input class="inline" type="checkbox" name="terms" id="terms-and-conditions" required> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
         </fieldset>
         <fieldset>
             <label for="profile-picture"><input type="file" name="picture" id="profile-picture">Upload a profile picture: </label>
@@ -39,7 +39,6 @@
             </label>
         </fieldset>
         <input type="submit" value="Submit"><!-- The first input element with a type of submit is automatically set to submit its nearest parent form elemen -->
-
     </form>
 </body>
 </html>
